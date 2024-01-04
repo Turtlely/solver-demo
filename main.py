@@ -43,7 +43,7 @@ x_prev = x
 p_velocity_verlet = Particle(x,v,m,F(x)/m)
 
 # Solve for t seconds
-tstop = 100
+tstop = 7
 n = int(tstop/dt)
 for i in range(n):
     # Euler solver
